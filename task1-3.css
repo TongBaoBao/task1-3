@@ -1,0 +1,65 @@
+#content{
+	width: 96%;
+	height: 600px;
+	background-color: #eee;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #999;
+	position: relative;
+}
+#left{
+	width: 200px;
+	height: 150px;
+	border: 1px solid #999;
+	background-color: white;
+
+}
+#left img{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	border: 1px solid #999;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#left h3{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+#right{
+	width: 120px;
+	height: 82%;
+	border: 1px solid #999;
+	background-color: white;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+#right img{
+	display: block;
+	border: 1px solid #999;
+	width: 80px;
+	height: 80px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#middle{
+	border: 1px solid #999;
+	background-color: white;
+	position: absolute;
+	left: 240px;
+	right: 160px;
+	top:20px;
+	height: auto;
+}
+#middle p{
+	margin-left: 20px;
+	margin-right: 20px;
+	letter-spacing: 1px;
+}
+#lyrics{
+	padding-bottom: 5px;
+	display: block;
+}
